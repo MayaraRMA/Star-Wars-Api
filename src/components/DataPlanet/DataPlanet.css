@@ -1,0 +1,28 @@
+.Post {
+    background-color: black;
+    border: 3px solid #ffe919;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px #ccc;
+    box-sizing: border-box;
+    color:  #ffe919;
+    letter-spacing: 1px;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Post h1 {
+    padding: 15px;
+}
+.Info {
+    text-align: left;
+    border-top: 3px solid #ffe919;
+    padding: 30px;
+}
+
+.Info p:not(:last-child) {
+    margin-bottom: 10px;
+}
+.Data {
+    color: white
+}

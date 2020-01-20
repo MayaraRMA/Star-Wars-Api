@@ -1,15 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PlanetCard from './components/PlanetCard/PlanetCard';
 
-import Planets from './containers/Planets/Planets';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Planets />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <PlanetCard/>
+    </div>
+  );
 }
 
 export default App;
